@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo '린트를 검사합니다.'
+echo '새로운 커밋 생성중-✨'
 
 npx lint-staged 
