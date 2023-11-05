@@ -23,8 +23,8 @@
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
-
     "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
-    "no-useless-catch": "off"
+    "no-useless-catch": "off",
+    "react/no-unused-prop-types": "off"
   }
 }
