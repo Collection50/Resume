@@ -1,4 +1,4 @@
-import Nav from '@/components/Nav';
+import Nav from '@/components/common/Nav';
 import type { Metadata } from 'next';
 import { Noto_Sans_KR } from 'next/font/google';
 import StyledProvider from './lib/StyledProvider';
