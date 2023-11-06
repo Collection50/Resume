@@ -15,7 +15,7 @@ export const Text = styled.div<{ $hilight?: boolean }>`
   color: #171717;
 
   text-align: center;
-  font-size: 65px;
+  font-size: 3em;
   font-style: normal;
   font-weight: 600;
   line-height: 150%;
