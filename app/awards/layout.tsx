@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import Header from '@/components/common/Header';
 
 export const metadata: Metadata = {
-  title: 'Resume',
+  title: 'Awards',
   description: 'Welcome to My land 🖥️',
 };
 
-export default function ResumeLayout({ children }: { children: React.ReactNode }) {
+export default function AwardsLayout({ children }: { children: React.ReactNode }) {
   return (
     <StyledMain>
       <Header />
