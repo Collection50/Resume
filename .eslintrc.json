@@ -27,6 +27,7 @@
     "no-useless-catch": "off",
     "react/no-unused-prop-types": "off",
     "import/prefer-default-export": "off",
-    "react/jsx-no-useless-fragment": "off"
+    "react/jsx-no-useless-fragment": "off",
+    "react/require-default-props": "off"
   }
 }
