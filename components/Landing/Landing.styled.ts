@@ -11,8 +11,11 @@ export const LandingContainer = styled.main`
   height: 100%;
 `;
 
-export const Text = styled.div<{ $hilight?: boolean }>`
+export const Text = styled.div`
   color: #171717;
+
+  display: flex;
+  gap: 10px;
 
   text-align: center;
   font-size: 3em;
@@ -20,8 +23,10 @@ export const Text = styled.div<{ $hilight?: boolean }>`
   font-weight: 600;
   line-height: 150%;
   letter-spacing: -0.975px;
+`;
 
-  color: ${({ $hilight }) => ($hilight ? '#fd853a' : '#171717')};
+export const Hilight = styled.p<{ $color: string }>`
+  color: ${({ $color }) => $color};
 `;
 
 export const HalfCircle = styled.div`

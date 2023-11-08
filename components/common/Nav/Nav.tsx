@@ -4,7 +4,7 @@ import { ROUTES } from '@/constants';
 import { usePathname } from 'next/navigation';
 import * as S from './Nav.styled';
 
-function Nav() {
+export default function Nav() {
   const pathname = usePathname();
 
   return (
@@ -19,5 +19,3 @@ function Nav() {
     </S.NavContainer>
   );
 }
-
-export default Nav;

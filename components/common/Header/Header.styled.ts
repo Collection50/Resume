@@ -1,22 +1,9 @@
 import styled from 'styled-components';
 
-export const MainContainer = styled.main`
+export const Headers = styled.header`
+  width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  width: 100%;
-  height: 100%;
-
-  padding: 130px;
-`;
-
-export const SectionContainer = styled.section`
-  width: 80%;
-`;
-
-export const Headers = styled.header`
-  display: flex;
   justify-content: space-between;
 
   margin-bottom: 87px;
@@ -24,8 +11,9 @@ export const Headers = styled.header`
 
 export const Header = styled.section`
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-bottom: 40px;
 `;
 
 export const Text = styled.article`
@@ -36,5 +24,5 @@ export const Text = styled.article`
   flex-direction: column;
   justify-content: center;
 
-  width: 50%;
+  width: 100%;
 `;
