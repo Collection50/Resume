@@ -1,4 +1,5 @@
 import { EDUCATIONS, RESUMES } from '@/constants';
+import { useAuth } from '@/hooks';
 import TitleDivider from '../TitleDivider';
 import Contribution from './Contribution';
 import LineDvider from '../common/LineDvider';
@@ -6,6 +7,8 @@ import Education from './Education';
 import Space from '../common/Space';
 
 export default function Resume() {
+  useAuth();
+
   return (
     <>
       <TitleDivider title="Work Experience" />
