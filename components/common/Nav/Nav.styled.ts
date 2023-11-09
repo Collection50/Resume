@@ -14,7 +14,7 @@ export const NavButtonContainer = styled.section`
   justify-content: space-around;
   align-items: center;
 
-  width: 280px;
+  width: 350px;
   height: 56px;
 
   border-radius: 50px;
