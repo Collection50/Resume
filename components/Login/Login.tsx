@@ -8,8 +8,9 @@ import * as S from './Login.styled';
 export default function UserLoginForm() {
   const { changeHandler, onSubmitHandler } = useLogin();
   const router = useRouter();
+  const accessToken = typeof window !== 'undefined' ? sessionStorage.getItem('role') : null;
 
-  if (sessionStorage.getItem('role')) {
+  if (accessToken) {
     router.push('/');
   }
 

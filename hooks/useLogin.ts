@@ -11,7 +11,9 @@ export function useLogin() {
 
     const { id, password } = inputRef.current;
     if (id === '1234' && password === '1234') {
-      sessionStorage.setItem('role', 'owner');
+      if (typeof window !== 'undefined') {
+        sessionStorage.setItem('role', 'admin');
+      }
       router.push('/');
     }
   };
