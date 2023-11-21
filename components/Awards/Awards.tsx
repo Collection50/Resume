@@ -3,7 +3,7 @@
 import { AWARDS } from '@/constants';
 import { useAuth } from '@/hooks';
 import TitleDivider from '../common/TitleDivider';
-import LineDvider from '../common/LineDvider';
+import LineDivider from '../common/LineDivider';
 import Award from './Award';
 
 export default function Awards() {
@@ -15,7 +15,7 @@ export default function Awards() {
       {AWARDS.map((award) => (
         <>
           <Award award={award} />
-          <LineDvider key={award.id} />
+          <LineDivider key={award.id} />
         </>
       ))}
     </>

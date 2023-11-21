@@ -1,4 +1,4 @@
 export * from './route';
 export * from './contribution';
-export * from './awrads';
+export * from './awards';
 export * from './educations';
