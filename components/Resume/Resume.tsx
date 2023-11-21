@@ -1,6 +1,6 @@
 import { EDUCATIONS, RESUMES } from '@/constants';
 import { useAuth } from '@/hooks';
-import TitleDivider from '../TitleDivider';
+import TitleDivider from '../common/TitleDivider';
 import Contribution from './Contribution';
 import LineDvider from '../common/LineDvider';
 import Education from './Education';

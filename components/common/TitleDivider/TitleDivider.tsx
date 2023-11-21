@@ -1,4 +1,4 @@
-import LineDvider from '../common/LineDvider';
+import LineDvider from '../LineDvider';
 import * as S from './TitleDivider.styled';
 
 export default function TitleDivider({ title }: { title: string }) {

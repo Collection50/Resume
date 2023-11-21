@@ -2,7 +2,7 @@
 
 import { AWARDS } from '@/constants';
 import { useAuth } from '@/hooks';
-import TitleDivider from '../TitleDivider';
+import TitleDivider from '../common/TitleDivider';
 import LineDvider from '../common/LineDvider';
 import Award from './Award';
 
