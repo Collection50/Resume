@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
-export const Headers = styled.header`
+export const HeaderContainer = styled.div`
   width: 80%;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const Headers = styled.header`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,8 +17,6 @@ export const Headers = styled.header`
 export const Header = styled.section`
   display: flex;
   justify-content: flex-start;
-
-  margin-bottom: 40px;
 `;
 
 export const Text = styled.article`
@@ -25,4 +28,13 @@ export const Text = styled.article`
   justify-content: center;
 
   width: 100%;
+`;
+
+export const ImageContainer = styled.div`
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
 `;
