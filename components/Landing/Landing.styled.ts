@@ -1,4 +1,24 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const slideIn = keyframes`
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 
 export const LandingContainer = styled.main`
   display: flex;
@@ -23,6 +43,10 @@ export const Text = styled.div`
   font-weight: 600;
   line-height: 150%;
   letter-spacing: -0.975px;
+
+  animation:
+    ${slideIn} 1s ease-in-out,
+    ${fadeIn} 1s ease-in-out;
 `;
 
 export const Hilight = styled.p<{ $color: string }>`

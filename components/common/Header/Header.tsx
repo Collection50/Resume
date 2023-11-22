@@ -9,9 +9,9 @@ export default function Header() {
     <S.HeaderContainer>
       <S.Headers>
         <S.Header>
-          <CommonS.Text>
+          <S.HeaderText>
             <CommonS.Hilight $color="#fd853a">주도적인 개발자</CommonS.Hilight> 김성민입니다.
-          </CommonS.Text>
+          </S.HeaderText>
         </S.Header>
         <S.Text>
           <div>사용자와 직접적으로 대면하는 제품을 만드는것에 매력을 느껴 웹 개발을 시작했습니다.</div>

@@ -50,11 +50,12 @@ export const SubTitle = styled.div`
 `;
 
 export const Ul = styled.ul`
-  line-height: 180%;
-
   margin-bottom: 50px;
 `;
 
 export const Element = styled.li`
+  font-size: 20px;
+  line-height: 1.8;
+
   margin-left: 20px;
 `;
