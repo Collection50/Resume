@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 export const TitleContainer = styled.div`
   line-height: 150%;
@@ -46,14 +47,14 @@ export const SubTitle = styled.div`
   line-height: 180%;
   letter-spacing: -0.3px;
 
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 `;
 
 export const Ul = styled.ul`
   margin-bottom: 50px;
 `;
 
-export const Element = styled.li`
+export const Element = styled(motion.li)`
   font-size: 20px;
   line-height: 1.8;
 

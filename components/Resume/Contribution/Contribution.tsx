@@ -30,7 +30,9 @@ export default function Contribution({ resume }: Resume) {
             <S.SubTitle>{subTitle}</S.SubTitle>
             <S.Ul>
               {elements.map((element) => (
-                <S.Element key={element}>{element}</S.Element>
+                <S.Element key={element} initial={{ y: 100 }} whileInView={{ y: -20 }} transition={{ duration: 0.5 }}>
+                  {element}
+                </S.Element>
               ))}
             </S.Ul>
           </Fragment>
