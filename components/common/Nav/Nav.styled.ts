@@ -7,6 +7,8 @@ export const NavContainer = styled.nav`
   top: 20px;
   left: 50%;
   transform: translate(-50%, 0);
+
+  z-index: 9999;
 `;
 
 export const NavButtonContainer = styled.section`
