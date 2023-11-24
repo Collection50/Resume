@@ -19,6 +19,20 @@ export default function Header() {
           <div>트러블 슈팅 관리를 위해 템플릿을 제공하여 일관된 문서를 작성합니다.</div>
           <div>리뷰하기 편한 PR을 지향합니다.</div>
         </S.Text>
+        <S.ContactContainer>
+          <S.Contact href="https://github.com/Collection50">
+            <Image src="/images/github.svg" width={23} height={23} alt="github" />
+            @Collection50
+          </S.Contact>
+          <S.Contact href="https://github.com/Collection50">
+            <Image src="/images/call.svg" width={20} height={20} alt="phone" />
+            010-3035-5265
+          </S.Contact>
+          <S.Contact href="fkaus65@naver.com">
+            <Image src="/images/mail.svg" width={20} height={20} alt="email" />
+            fkaus65@naver.com
+          </S.Contact>
+        </S.ContactContainer>
       </S.Headers>
       <S.ImageContainer>
         <Image src="/images/me.png" width={300} height={300} alt="myPhoto" />
