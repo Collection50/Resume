@@ -41,7 +41,7 @@ export const ContentsContainer = styled.div`
   flex-direction: column;
 `;
 
-export const SubTitle = styled.div`
+export const SubTitle = styled(motion.div)`
   font-size: 20px;
   font-weight: 600;
   line-height: 180%;

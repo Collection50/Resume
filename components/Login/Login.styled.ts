@@ -1,10 +1,27 @@
 import styled from 'styled-components';
 
+export const Greeting = styled.div`
+  font-size: 40px;
+  font-weight: 600;
+
+  color: #fd853a;
+
+  width: 25%;
+  position: absolute;
+
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+`;
+
 export const FormContainer = styled.main`
   width: 25%;
   position: absolute;
 
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 `;

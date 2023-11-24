@@ -15,21 +15,24 @@ export default function UserLoginForm() {
   }
 
   return (
-    <S.FormContainer>
-      <S.Form onSubmit={onSubmitHandler}>
-        <S.InputSection>
-          {LOGIN_FORMAT.map(({ key, placeholder }) => (
-            <S.InputStyle
-              type={key === 'id' ? 'text' : 'password'}
-              key={key}
-              onChange={(e) => changeHandler(e, key)}
-              placeholder={placeholder}
-              autoComplete={key === 'password' ? 'off' : 'on'}
-            />
-          ))}
-        </S.InputSection>
-        <S.Button>로그인</S.Button>
-      </S.Form>
-    </S.FormContainer>
+    <>
+      <S.Greeting>환영합니다 !</S.Greeting>
+      <S.FormContainer>
+        <S.Form onSubmit={onSubmitHandler}>
+          <S.InputSection>
+            {LOGIN_FORMAT.map(({ key, placeholder }) => (
+              <S.InputStyle
+                type={key === 'id' ? 'text' : 'password'}
+                key={key}
+                onChange={(e) => changeHandler(e, key)}
+                placeholder={placeholder}
+                autoComplete={key === 'password' ? 'off' : 'on'}
+              />
+            ))}
+          </S.InputSection>
+          <S.Button>로그인</S.Button>
+        </S.Form>
+      </S.FormContainer>
+    </>
   );
 }

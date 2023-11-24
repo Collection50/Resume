@@ -25,6 +25,8 @@ export const NavButtonContainer = styled.section`
 `;
 
 export const NavButton = styled(Link)<{ selected: boolean }>`
+  font-size: 18px;
+
   display: flex;
   justify-content: center;
   align-items: center;

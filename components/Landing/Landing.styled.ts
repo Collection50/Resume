@@ -29,6 +29,8 @@ export const LandingContainer = styled.main`
 
   width: 100%;
   height: 100%;
+
+  position: absolute;
 `;
 
 export const Text = styled.div`
