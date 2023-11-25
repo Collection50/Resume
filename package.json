@@ -18,6 +18,7 @@
   "dependencies": {
     "framer-motion": "^10.16.5",
     "next": "^13.4.12",
+    "popmotion": "^11.0.5",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.0",

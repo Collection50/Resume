@@ -20,15 +20,15 @@ export default function Header() {
           <div>리뷰하기 편한 PR을 지향합니다.</div>
         </S.Text>
         <S.ContactContainer>
-          <S.Contact href="https://github.com/Collection50">
+          <S.Contact href="https://github.com/Collection50" target="_blank">
             <Image src="/images/github.svg" width={23} height={23} alt="github" />
             @Collection50
           </S.Contact>
-          <S.Contact href="https://github.com/Collection50">
+          <S.Contact href="https://github.com/Collection50" target="_blank">
             <Image src="/images/call.svg" width={20} height={20} alt="phone" />
             010-3035-5265
           </S.Contact>
-          <S.Contact href="fkaus65@naver.com">
+          <S.Contact href="mailto:fkaus65@naver.com" target="_blank">
             <Image src="/images/mail.svg" width={20} height={20} alt="email" />
             fkaus65@naver.com
           </S.Contact>

@@ -48,6 +48,7 @@ export const Text = styled.article`
 `;
 
 export const ContactContainer = styled.div`
+  width: fit-content;
   display: flex;
   gap: 15px;
   align-items: center;

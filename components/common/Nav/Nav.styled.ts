@@ -31,7 +31,7 @@ export const NavButton = styled(Link)<{ selected: boolean }>`
   justify-content: center;
   align-items: center;
 
-  width: 80px;
+  width: 75px;
   height: 40px;
 
   background: ${({ selected }) => (selected ? '#FD853A' : '#171717')};

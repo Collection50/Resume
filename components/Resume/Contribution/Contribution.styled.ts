@@ -56,6 +56,7 @@ export const Ul = styled.ul`
 
 export const Element = styled(motion.li)`
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.8;
 
   margin-left: 20px;
