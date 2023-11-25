@@ -36,7 +36,6 @@ export const NavButton = styled(Link)<{ selected: boolean }>`
 
   background: ${({ selected }) => (selected ? '#FD853A' : '#171717')};
   border-radius: 60px;
-  gap: 10px;
   text-decoration: none;
   color: white;
 

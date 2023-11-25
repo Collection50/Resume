@@ -1,20 +1,34 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+// Define a keyframe animation
+const growAnimation = keyframes`
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+`;
 
 export const Greeting = styled.div`
   font-size: 40px;
   font-weight: 600;
-
   color: #fd853a;
 
   width: 25%;
   position: absolute;
 
-  top: 35%;
-  left: 50%;
+  top: 30%;
+  left: 38%;
   transform: translate(-50%, -50%);
 
   display: flex;
   justify-content: center;
+
+  animation: ${growAnimation} 2s infinite;
 `;
 
 export const FormContainer = styled.main`
