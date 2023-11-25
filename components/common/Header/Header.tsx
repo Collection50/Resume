@@ -9,9 +9,9 @@ export default function Header() {
     <S.HeaderContainer>
       <S.Headers>
         <S.Header>
-          <CommonS.Text>
+          <S.HeaderText>
             <CommonS.Hilight $color="#fd853a">주도적인 개발자</CommonS.Hilight> 김성민입니다.
-          </CommonS.Text>
+          </S.HeaderText>
         </S.Header>
         <S.Text>
           <div>사용자와 직접적으로 대면하는 제품을 만드는것에 매력을 느껴 웹 개발을 시작했습니다.</div>
@@ -19,6 +19,20 @@ export default function Header() {
           <div>트러블 슈팅 관리를 위해 템플릿을 제공하여 일관된 문서를 작성합니다.</div>
           <div>리뷰하기 편한 PR을 지향합니다.</div>
         </S.Text>
+        <S.ContactContainer>
+          <S.Contact href="https://github.com/Collection50" target="_blank">
+            <Image src="/images/github.svg" width={23} height={23} alt="github" />
+            @Collection50
+          </S.Contact>
+          <S.Contact href="https://github.com/Collection50" target="_blank">
+            <Image src="/images/call.svg" width={20} height={20} alt="phone" />
+            010-3035-5265
+          </S.Contact>
+          <S.Contact href="mailto:fkaus65@naver.com" target="_blank">
+            <Image src="/images/mail.svg" width={20} height={20} alt="email" />
+            fkaus65@naver.com
+          </S.Contact>
+        </S.ContactContainer>
       </S.Headers>
       <S.ImageContainer>
         <Image src="/images/me.png" width={300} height={300} alt="myPhoto" />

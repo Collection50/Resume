@@ -27,10 +27,21 @@ export default function Contribution({ resume }: Resume) {
       <S.ContentsContainer>
         {contents.map(({ subTitle, elements }) => (
           <Fragment key={subTitle}>
-            <S.SubTitle>{subTitle}</S.SubTitle>
+            <S.SubTitle
+              initial={{ opacity: 0, y: 50, x: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}>
+              {subTitle}
+            </S.SubTitle>
             <S.Ul>
               {elements.map((element) => (
-                <S.Element key={element}>{element}</S.Element>
+                <S.Element
+                  key={element}
+                  initial={{ opacity: 0, y: 50, x: 0 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}>
+                  {element}
+                </S.Element>
               ))}
             </S.Ul>
           </Fragment>

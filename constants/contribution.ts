@@ -65,7 +65,7 @@ export const RESUMES = [
       {
         subTitle: '[ 기술 ]',
         elements: [
-          'Next.js, Typescript, Styled-Component, Redux-Toolkit',
+          'Next.js, Typescript, Styled-Component, TansackQuery',
           '유저, 관리자 페이지 구현',
           '렌더링 최적화를 통한 성능 개선',
           'UI/UX 향상을 위한 작업',

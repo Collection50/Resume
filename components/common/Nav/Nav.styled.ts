@@ -7,6 +7,8 @@ export const NavContainer = styled.nav`
   top: 20px;
   left: 50%;
   transform: translate(-50%, 0);
+
+  z-index: 9999;
 `;
 
 export const NavButtonContainer = styled.section`
@@ -23,11 +25,13 @@ export const NavButtonContainer = styled.section`
 `;
 
 export const NavButton = styled(Link)<{ selected: boolean }>`
+  font-size: 18px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 80px;
+  width: 75px;
   height: 40px;
 
   background: ${({ selected }) => (selected ? '#FD853A' : '#171717')};

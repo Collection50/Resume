@@ -16,11 +16,14 @@
     ]
   },
   "dependencies": {
+    "framer-motion": "^10.16.5",
     "next": "^13.4.12",
+    "popmotion": "^11.0.5",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.0",
-    "styled-reset": "^4.5.1"
+    "styled-reset": "^4.5.1",
+    "sweetalert2": "^11.10.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",

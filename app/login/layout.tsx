@@ -2,7 +2,7 @@ import { StyledMain, StyledSection } from '@/styles/layout-style';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Awards',
+  title: 'Login',
   description: 'Welcome to My land 🖥️',
 };
 

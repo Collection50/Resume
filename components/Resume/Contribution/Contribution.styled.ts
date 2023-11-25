@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 export const TitleContainer = styled.div`
   line-height: 150%;
@@ -40,21 +41,23 @@ export const ContentsContainer = styled.div`
   flex-direction: column;
 `;
 
-export const SubTitle = styled.div`
+export const SubTitle = styled(motion.div)`
   font-size: 20px;
   font-weight: 600;
   line-height: 180%;
   letter-spacing: -0.3px;
 
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 `;
 
 export const Ul = styled.ul`
-  line-height: 180%;
-
   margin-bottom: 50px;
 `;
 
-export const Element = styled.li`
+export const Element = styled(motion.li)`
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8;
+
   margin-left: 20px;
 `;
